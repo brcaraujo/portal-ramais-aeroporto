@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+:root{
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./aeroporto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.ilustracao{
+    filter: grayscale(1);
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    opacity: 0.5;
+    font-size: 11px;
+    text-align: center;
+}
+    .ilustracao img{
+        height: 150px;
+        max-height: 250px;
+    }
+.box_principal{
+    background-color: #EBECEC;
+    width: 750px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 25px 0px rgba(109, 108, 108, 0.75);
+    z-index: 999;
+}
+    .box_header{
+        /* background-color: red; */
+        width: 95%;
+        height: 80px;
+        display: flex;
+        justify-content: start;
+        align-items: center;   
+    }
+        .box_header img{
+            height: 70%;
+            /* margin-left: 20px; */
+        }
+
+    .box_seach{
+        /* background-color: aqua; */
+        width: 95%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }   
+        .box_seach form{
+            width: 100%;
+            height: 100%;
+            /* background-color: rebeccapurple; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .box_seach form select{
+                border: 0 none;
+                background-color: #f4f7f7;  
+                height: 30px; 
+                margin-right: 5px;
+            }
+            .box_seach form input{
+                width: 65%;
+                height: 30px;
+                border: 0px none;
+                outline: 0px none;
+                box-shadow: none;  
+                background-color: #f4f7f7;
+                padding-left: 15px; 
+                margin-right: 5px; 
+            }
+            .box_seach form button{
+                width: 35%;  
+                height: 30px;  
+                border: 0px none;
+                outline: 0px none;
+                box-shadow: none; 
+                background-color: #0087FF;
+                cursor: pointer;
+                font-size: 15px;
+                color: #f4f7f7;
+                font-weight: bold;
+                font-style: italic;
+            }
+    
+    .box_lista_de_ramais{
+        margin-top: 20px;
+        /* background-color: aqua; */
+        height: 350px;
+        width: 95%;
+        overflow-y: auto;
+        position: relative;
+    }
+        .box_lista_de_ramais table{
+            width: 100%;
+            font-size: 12px;
+            /* font-style: italic; */
+            color: #5B5B5B;
+            /* background-color: #0087FF; */
+        }
+        .box_lista_de_ramais table td{
+            padding: 3px;
+        }
+            .TR-hOVER:hover{
+                background-color: #d8dadb;
+                color: black;
+                border: 0px none;
+                cursor: pointer;   
+            }
+
+    .box_footer{
+        /* background-color: red; */
+        margin-top: 15px;
+        width: 95%;
+        height: 50px;
+        border-top: 1px solid rgb(214, 211, 211);
+        color: #5B5B5B;
+        font-size: 12px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+            ::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+              }
+              ::-webkit-scrollbar-button {
+                width: 0px;
+                height: 0px;
+              }
+              ::-webkit-scrollbar-thumb {
+                background: #0279f7;
+                border: 0px none #ffffff;
+                border-radius: 18px;
+              }
+              ::-webkit-scrollbar-thumb:hover {
+                background: #09a4f1;
+              }
+              ::-webkit-scrollbar-thumb:active {
+                background: #104993;
+              }
+              ::-webkit-scrollbar-track {
+                background: #a2a0a0;
+                border: 0px none #ffffff;
+                border-radius: 27px;
+              }
+              ::-webkit-scrollbar-track:hover {
+                background: #949494;
+              }
+              ::-webkit-scrollbar-track:active {
+                background: #9c9c9c;
+              }
+              ::-webkit-scrollbar-corner {
+                background: transparent;
+              }
